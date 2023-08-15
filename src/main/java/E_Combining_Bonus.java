@@ -30,6 +30,7 @@ public class E_Combining_Bonus {
     //add while
     while(index < numbers.length && accumulator <= 400) {
       accumulator += numbers[index];
+      index++;
     }
     System.out.println(accumulator);
 

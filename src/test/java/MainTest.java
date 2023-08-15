@@ -126,6 +126,6 @@ public class MainTest {
     verify(mockedPrintStream).println(52);
     verify(mockedPrintStream).println(178);
     verify(mockedPrintStream).println(14);
-    verify(mockedPrintStream).println(406);
+    verify(mockedPrintStream).println(438);
   }
 }
