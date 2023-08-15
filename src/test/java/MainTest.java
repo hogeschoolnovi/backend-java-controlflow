@@ -13,7 +13,7 @@ public class MainTest {
     System.setOut(mockedPrintStream);
     A_IfStatements.main(new String[]{});
     verify(mockedPrintStream).println("Even");
-    verify(mockedPrintStream).println("Te betalen: 116.4795");
+    verify(mockedPrintStream).println("Te betalen: 110.349");
     verify(mockedPrintStream).println("10 > 8");
   }
 

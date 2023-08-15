@@ -26,10 +26,10 @@ public class A_IfStatements {
         // als de klant voor meer dan 100 besteld, wordt er 10% korting gegeven.
         // anders krijgt de klant 1% korting
         // maak je geen zorgen over afronding.
-        if(totalAmount > 50f) {
-            discount = 0.05f;
-        } else if(totalAmount > 100f) {
+        if(totalAmount > 100f) {
             discount = 0.1f;
+        } else if(totalAmount > 50f) {
+            discount = 0.05f;
         } else {
             discount = 0.01f;
         }
